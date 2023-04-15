@@ -1,0 +1,52 @@
+Her dakika veriler çoğalıyor ancak bu verilerin çoğu dağınık ve anlamdırılmamış halde duruyor.
+
+İşletmeler için bu verilerin anlamlı hale gelmesi, hızlı ve doğru bir şekilde erişilebilir ve analiz edilebilir olması kritik önem taşıyor.
+
+ElasticSearch bu ihtiyacı karşılamak uygun bir arama aracıdır.
+
+ElasticSearch esnekliliği , dağıtık sistemlerde	gerçek zamanlı çalışmayı ve benzeri özellikleri	destekler.
+
+
+ElasticSearch'in Avantajları :
+
+	1) Dağıtık ve ölçeklenebilir yapıda çalışabilir.
+
+        2) Açık kaynaklıdır.
+
+        3) Restful API destekler.
+
+        4) Gerçek zamanlı çalışmaya yakındır.
+
+        5) Yedekleme kolaydır.
+
+        6) Diğer alternatiflere göre daha az kaynak kullanır.
+
+        8) Indexlemeyi destekler.
+
+        9) JSON olarak depolar böylece birden çok dil desteği vardır.
+
+        10) Kolay ve hızlı başlangıç.
+
+        11) MongoDB , Cassandra gibi NoSQL veritabanlarından veri taşımasını destekler.
+
+
+ElasticSearch Nasıl Çalışır ?
+
+	ElasticSearch’e herhangi bir veri kaydedilirken, veri içerisinde daha önceden belirlenen alanlar indekslenir. 
+
+	ElasticSearch, bu işlemi veri kaydının ilk anında gerçekleştirdiği ve verileri indeks listesine göre sınıflandırdığı için, arama sonuçlarına hızlıca ulaşabilir.
+     
+
+ElasticSearch Terimleri : 
+
+        Indice = Veritabanının karşılığı.
+
+        Type = İlişkisel veritabanındaki tablolar.
+
+        Document = 'Type' ın satıları.
+
+        Mapping	= Indexlenmiş verinin , veri tipi.
+
+        Field = İlişkisel veritabanındaki satırlar.
+
+        Cluster = Bir veya birden fazla düğümün toplamı.
