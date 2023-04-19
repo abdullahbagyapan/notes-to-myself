@@ -2,7 +2,7 @@
 
 
 
-## Quieries
+## Queries
 
 ### match_phrase
 
