@@ -10,7 +10,7 @@
 	  "mappings":{
 	    "properties":{
 	      "book_name":{"type":"text"},
-	      "book_author":{"type":"float"}
+	      "book_author":{"type":"text"}
 	    }
 	  }
 	}
@@ -20,7 +20,7 @@
 	PUT _bulk
 	{"index":{"_index":"book"}}
 	{"book_name":"The 48 Laws Of Power","book_author":"Robert Greene"}
-	{"create":{"_index":"book","_id":1}}
+	{"create":{"_index":"book"}}
 
 <hr>
 
